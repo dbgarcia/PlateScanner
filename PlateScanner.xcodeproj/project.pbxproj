@@ -12,7 +12,7 @@
 		A5F885D922412F1200BBC727 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F885D722412F1200BBC727 /* Main.storyboard */; };
 		A5F885DB22412F1300BBC727 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5F885DA22412F1300BBC727 /* Assets.xcassets */; };
 		A5F885DE22412F1300BBC727 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5F885DC22412F1300BBC727 /* LaunchScreen.storyboard */; };
-		A5F885E622412F5D00BBC727 /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F885E522412F5D00BBC727 /* Camera.swift */; };
+		A5F885E622412F5D00BBC727 /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F885E522412F5D00BBC727 /* CameraService.swift */; };
 		A5F885E822412FC800BBC727 /* CameraServiceDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F885E722412FC800BBC727 /* CameraServiceDelegate.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,7 +24,7 @@
 		A5F885DA22412F1300BBC727 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5F885DD22412F1300BBC727 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5F885DF22412F1300BBC727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A5F885E522412F5D00BBC727 /* Camera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		A5F885E522412F5D00BBC727 /* CameraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
 		A5F885E722412FC800BBC727 /* CameraServiceDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraServiceDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,16 +58,48 @@
 		A5F885D222412F1200BBC727 /* PlateScanner */ = {
 			isa = PBXGroup;
 			children = (
+				A5F885EC2241369500BBC727 /* New Group */,
+				A5F885EB2241367F00BBC727 /* Service */,
+				A5F885EA2241366F00BBC727 /* Protocols */,
+				A5F885E92241366000BBC727 /* ViewControllers */,
 				A5F885D322412F1200BBC727 /* AppDelegate.swift */,
-				A5F885D522412F1200BBC727 /* ViewController.swift */,
 				A5F885D722412F1200BBC727 /* Main.storyboard */,
 				A5F885DA22412F1300BBC727 /* Assets.xcassets */,
 				A5F885DC22412F1300BBC727 /* LaunchScreen.storyboard */,
 				A5F885DF22412F1300BBC727 /* Info.plist */,
-				A5F885E522412F5D00BBC727 /* Camera.swift */,
-				A5F885E722412FC800BBC727 /* CameraServiceDelegate.swift */,
 			);
 			path = PlateScanner;
+			sourceTree = "<group>";
+		};
+		A5F885E92241366000BBC727 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A5F885D522412F1200BBC727 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A5F885EA2241366F00BBC727 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				A5F885E722412FC800BBC727 /* CameraServiceDelegate.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		A5F885EB2241367F00BBC727 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				A5F885E522412F5D00BBC727 /* CameraService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		A5F885EC2241369500BBC727 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +174,7 @@
 			files = (
 				A5F885D622412F1200BBC727 /* ViewController.swift in Sources */,
 				A5F885D422412F1200BBC727 /* AppDelegate.swift in Sources */,
-				A5F885E622412F5D00BBC727 /* Camera.swift in Sources */,
+				A5F885E622412F5D00BBC727 /* CameraService.swift in Sources */,
 				A5F885E822412FC800BBC727 /* CameraServiceDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
